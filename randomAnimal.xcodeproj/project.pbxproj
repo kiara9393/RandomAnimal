@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53DCA80220CE6482007437DF /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DCA80120CE6482007437DF /* BlueViewController.swift */; };
 		53ECB5E120C6996900930936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECB5E020C6996900930936 /* AppDelegate.swift */; };
 		53ECB5E320C6996900930936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECB5E220C6996900930936 /* ViewController.swift */; };
 		53ECB5E620C6996900930936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ECB5E420C6996900930936 /* Main.storyboard */; };
 		53ECB5E820C6996900930936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53ECB5E720C6996900930936 /* Assets.xcassets */; };
 		53ECB5EB20C6996900930936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ECB5E920C6996900930936 /* LaunchScreen.storyboard */; };
+		53ECB5F420C6A11300930936 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECB5F320C6A11300930936 /* AnimalModel.swift */; };
+		53ECB5F620C6A16500930936 /* DogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECB5F520C6A16500930936 /* DogModel.swift */; };
+		53ECB5F820C6A22600930936 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECB5F720C6A22600930936 /* CatModel.swift */; };
+		53ECB5FA20C6A27D00930936 /* BirdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECB5F920C6A27D00930936 /* BirdModel.swift */; };
+		53ECB5FC20C6D64900930936 /* DatailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECB5FB20C6D64900930936 /* DatailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53DCA80120CE6482007437DF /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		53ECB5DD20C6996900930936 /* randomAnimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomAnimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53ECB5E020C6996900930936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53ECB5E220C6996900930936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		53ECB5E720C6996900930936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53ECB5EA20C6996900930936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53ECB5EC20C6996900930936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53ECB5F320C6A11300930936 /* AnimalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		53ECB5F520C6A16500930936 /* DogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogModel.swift; sourceTree = "<group>"; };
+		53ECB5F720C6A22600930936 /* CatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		53ECB5F920C6A27D00930936 /* BirdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdModel.swift; sourceTree = "<group>"; };
+		53ECB5FB20C6D64900930936 /* DatailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		53ECB5DF20C6996900930936 /* randomAnimal */ = {
 			isa = PBXGroup;
 			children = (
+				53ECB5F220C6A0C100930936 /* Model */,
 				53ECB5E020C6996900930936 /* AppDelegate.swift */,
 				53ECB5E220C6996900930936 /* ViewController.swift */,
 				53ECB5E420C6996900930936 /* Main.storyboard */,
 				53ECB5E720C6996900930936 /* Assets.xcassets */,
 				53ECB5E920C6996900930936 /* LaunchScreen.storyboard */,
 				53ECB5EC20C6996900930936 /* Info.plist */,
+				53ECB5FB20C6D64900930936 /* DatailViewController.swift */,
+				53DCA80120CE6482007437DF /* BlueViewController.swift */,
 			);
 			path = randomAnimal;
+			sourceTree = "<group>";
+		};
+		53ECB5F220C6A0C100930936 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53ECB5F320C6A11300930936 /* AnimalModel.swift */,
+				53ECB5F520C6A16500930936 /* DogModel.swift */,
+				53ECB5F720C6A22600930936 /* CatModel.swift */,
+				53ECB5F920C6A27D00930936 /* BirdModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53ECB5F620C6A16500930936 /* DogModel.swift in Sources */,
 				53ECB5E320C6996900930936 /* ViewController.swift in Sources */,
+				53DCA80220CE6482007437DF /* BlueViewController.swift in Sources */,
+				53ECB5FA20C6A27D00930936 /* BirdModel.swift in Sources */,
+				53ECB5FC20C6D64900930936 /* DatailViewController.swift in Sources */,
+				53ECB5F420C6A11300930936 /* AnimalModel.swift in Sources */,
+				53ECB5F820C6A22600930936 /* CatModel.swift in Sources */,
 				53ECB5E120C6996900930936 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +333,7 @@
 				53ECB5F120C6996900930936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
